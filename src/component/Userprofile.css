@@ -1,0 +1,88 @@
+.user-profile {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+
+  .loading {
+    font-style: italic;
+    color: #888;
+  }
+  
+  /* Style for edit buttons */
+  button2 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  button3 {
+    background-color: gray; /* Green */
+    border: none;
+    color: white;
+    padding: 3px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  /* Change color of buttons on hover */
+  button2:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style for input fields in edit mode */
+  input[type="text2"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Style for Save and Cancel buttons in edit mode */
+  .edit-buttons {
+    margin-top: 10px;
+  }
+  
+  .edit-buttons button2 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .edit-buttons button2.cancel {
+    background-color: #f44336; /* Red */
+  }
+
+  .edit-buttons button2.cancel {
+    background-color: #f44336; /* Red */
+  }
+
+  button2.cancel {
+    background-color: #f44336; /* Red */
+  }

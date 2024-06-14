@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
+.flex-basis-200 {
+  flex-basis: 200px;
+}
+
+figure {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+figcaption {
+  width: 90%;
+  font-size: 80%;
+  margin: auto;
+}
+
+.gray-button {
+  width: 150px; /* กำหนดความกว้างของปุ่ม */
+  height: 40px; /* กำหนดความสูงของปุ่ม */
+  background-color: transparent; /* กำหนดพื้นหลังของปุ่มให้เป็นสีว่างเปล่า */
+  color: black; /* เปลี่ยนสีตัวอักษรเป็นขาว */
+  border: 1px solid black; /* เพิ่มขอบด้วยสีดำ */
+  padding: 10px 20px; /* ปรับขนาดการเสริม */
+  border-radius: 5px; /* เพิ่มขอบเขตของมุม */
+  cursor: pointer; /* เปลี่ยนเป็นสัญลักษณ์เมาส์เป็น pointer เมื่อชี้ไปที่ปุ่ม */
+  text-decoration: none; /* ลบขีดเส้นใต้ข้อความ */
+  margin-right: 10px; /* เพิ่มระยะห่างด้านขวาของปุ่ม */
+  margin-bottom: 10px; /* เพิ่มระยะห่างด้านล่างของปุ่ม */
+  justify-content: center; /* จัดหน้าแบบกึ่งกลางตามแนวนอน */
+  align-items: center; /* จัดหน้าแบบกึ่งกลางตามแนวตั้ง */
+}
+
+
+.nav-menu {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* กำหนดความกว้างเต็มของพอร์ต */
+}
+
+img {
+  aspect-ratio: 5/5;
+  object-fit: cover;
+}

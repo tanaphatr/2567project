@@ -1,0 +1,31 @@
+/* Catagori.css */
+.category-grid {
+  display: flex;
+  grid-template-columns: repeat(10, 1fr); /* Display 10 items per row */
+  gap: 20px; /* Spacing between items */
+  transition: height 0.5s ease-in-out; /* Smooth height transition */
+  overflow: hidden; /* Hide overflow */
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.category-item {
+  max-width: 100px;
+  max-height: 100px;
+  margin: 25px;
+}
+
+.show-less {
+  height: 0; /* Set height to 0 when "Show Less" clicked */
+}
+
+.category-item a {
+  text-decoration: none;
+}
+
+.category-item a:hover {
+  text-decoration: underline;
+}
